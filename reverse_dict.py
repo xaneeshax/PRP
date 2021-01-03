@@ -29,38 +29,3 @@ print(reverse_office)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-for name, activities in office.items():
-    for activity in activities:
-        if activity not in reverse_office.keys():
-            reverse_office[activity] = [name]
-        else:
-            reverse_office[activity].append(name)
-
-print(reverse_office)
-'''          
-            
